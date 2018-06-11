@@ -114,7 +114,7 @@ enum algos {
 	ALGO_SIB,         /* X11 + gost (Sibcoin) */
 	ALGO_SKEIN,       /* Skein */
 	ALGO_SKEIN2,      /* Double skein (Woodcoin) */
-	ALGO_SONOA,	  /* SONO Algorithm (infused Skunk) */
+	ALGO_SONOA,	  /* SONO Algorithm (97 steps to hash) */
 	ALGO_S3,          /* S3 */
 	ALGO_TIMETRAVEL,  /* Timetravel-8 (Machinecoin) */
 	ALGO_BITCORE,     /* Timetravel-10 (Bitcore) */
@@ -3334,8 +3334,9 @@ static int thread_create(struct thr_info *thr, void* func)
 
 static void show_credits()
 {
-	printf("** " PACKAGE_NAME " " PACKAGE_VERSION " by tpruvot@github **\n");
-	printf("BTC donation address: 1FhDPLPpw18X4srecguG3MxJYe4a1JsZnd (tpruvot)\n\n");
+	printf("** " PACKAGE_NAME " " PACKAGE_VERSION " by zPools@github **\n");
+	printf("Forked from tpruvot@github, consider donate him for his work\n");
+	printf("SonoA algo could need some time to initialize, especially in benchmark\n\n");
 }
 
 void get_defconfig_path(char *out, size_t bufsize, char *argv0);

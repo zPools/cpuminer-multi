@@ -54,7 +54,7 @@ Algorithms
  * ✓ __sib__ X11 + gost streebog (SibCoin)
  * ✓ __timetravel__ Permuted serie of 8 algos (MachineCoin [MAC])
  * ✓ __tribus__ 3 of the top NIST5 algos (Denarius [DNR])
- * ✓ __sonoa__ 6 of the SHA3 candidate algos, enclosed by the SHA3 winner (6+1) (Project SONO [SONO])
+ * ✓ __sonoa__ 17 SHA3 candidate algos. 97 steps until hash  (Project SONO [SONO])
  * ✓ __vanilla__ (Blake-256 8-rounds - double sha256 [VNL])
  * ✓ __veltor__ (Veltor [VLT])
  * ✓ __xevan__ x17 x 2 on bigger header (BitSend [BSD])
